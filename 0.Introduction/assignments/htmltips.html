@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tips</title>
+    <base target="_blank">
+</head>
+<body>
+    <h1>1. The 'loading=lazy' attribute</h1>
+    <img src='image.jpg' loading='lazy' alt='Alternative Text'>
+
+    <h1>2. Email, call, and SMS links</h1>
+    <a href="mailto:{rebeca.marleo@educa.jcyl.es}?subject=DIW website&body=Good morning/afternoon/evening Rebeca,">
+        Send an email
+    </a>
+    <br>
+    <a href="tel:666555444">
+        Call me
+    </a>
+    <br>
+    <a href="sms:666555444?body=Hello Rebeca,">
+        Send a message
+    </a>
+
+    <h1>3. Ordered lists 'start' attribute</h1>
+    <ol start="3">
+        <li>Multimedia Content Deployment</li>
+        <li>Interactive Content Integration</li>
+        <li>Accessible Web Design</li>
+        <li>Usable Web Implementation</li>
+    </ol>
+
+    <h1>4. The 'meter' element</h1>
+    <label for="value1">Low</label>
+    <br>
+    <meter id="value1" min="0" max="100" low="30" high="75" optimum="90" value="25"></meter>
+    <br>
+    <label for="value2">Medium</label>
+    <br>
+    <meter id="value2" min="0" max="100" low="30" high="75" optimum="90" value="50"></meter>
+    <br>
+    <label for="value3">High</label>
+    <br>
+    <meter id="value3" min="0" max="100" low="30" high="75" optimum="90" value="75"></meter>
+    <br>
+    <label for="value4">Optimum</label>
+    <br>
+    <meter id="value4" min="0" max="100" low="30" high="75" optimum="90" value="90"></meter>
+
+    <h1>5. HTML native search</h1>
+    <input list="items">
+    <datalist id="items">
+        <option value="Rebeca Martínez de León">
+        <option value="Diseño de Interfaces Web">
+        <option value="Assignments">
+        <option value="HTML Tips">
+    </datalist>
+
+    <h1>6. Fieldset element</h1>
+    <form>
+        <fieldset>
+            <legend>Where do you want to save this file?</legend>
+
+            <input type="radio" id="documentation" name="folder">
+            <label for="documentation">Documentation</label>
+            <br>
+            <input type="radio" id="assignments" name="folder">
+            <label for="assignments">Assignments</label><br />
+
+            <input type="radio" id="tools" name="folder">
+            <label for="tools">Tools</label>
+        </fieldset>
+    </form>
+
+    <h1>7. Window.opener</h1>
+    <a href="https://rebecamarleo.github.io" target="_blank" rel="noopener">
+        Rebeca's website
+    </a>
+
+    <h1>8. Base element</h1>
+    <p>This link will be opened in a new tab:</p>
+    <a href="https://rebecamarleo.github.io">
+        Rebeca's website
+    </a>
+
+    <h1>9. Favicon cache busting</h1>
+    <link rel="icon" href="imagen?v=2" />https://www.w3schools.com/html/html_favicon.asp
+
+    <h1>10. The 'spellcheck' attribute</h1>
+    <label for="input1">spellcheck="true"</label>
+    <input type="text" id="input1" spellcheck="true">
+
+    <label for="input2">spellcheck="false"</label>
+    <input type="text" id="input2" spellcheck="false">
+
+    <h1>11. Native HTML sliders</h1>
+    <label for="volume">Volume: </label>
+    <input type="range" id="volume" name="volume" min="0" max="100">
+
+    <h1>12. HTML accordion</h1>
+    <div class="wrapper">
+        <details>
+            <summary>
+                Click to see the assignments
+            </summary>
+            <p>Creating a GitHub page</p>
+            <p>HTML tips</p>
+        </details>
+    </div>
+
+    <h1>13. 'mark' tag</h1>
+    <p>This website was made by <mark>Rebeca Martínez de León</mark></p>
+
+    <h1>14. 'download' attribute</h1>
+    <a href='path/to/file' download>
+        Download
+    </a>
+
+    <h1>15. Performance tip</h1>
+    <picture>
+        <source srcset="logo.webp" type="image/webp">
+        <img src="logo.png" alt="logo">
+    </picture>
+
+    <h1>16. Video thumbnail</h1>
+    <video poster="path/to/image">
+        <source src="movie.mp4" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+
+    <h1>17. input type="search"</h1>
+    <form>
+        <label for="search">Input type text:</label>
+        <input type="search" id="search" name="search">
+    </form>
+
+    <h1>18. 'pre' tag</h1>
+    <h3>
+        With pre tag
+    </h3>
+    <pre>
+        Documentation
+        Assignments
+            Creating a GitHub Page
+            HTML Tips
+            
+        Tools
+    </pre>
+    <h3>
+        Without pre tag
+    </h3>
+    <p>
+        Documentation
+        Assignments
+            Creating a GitHub Page
+            HTML Tips
+            
+        Tools
+    </p>
+
+    <h1>Conclusion</h1>
+    <p>I was familiar with the start attribute for ordered lists, the 'meter' element, the fieldset element, the HTML sliders and the 'mark' tag.</p>
+    <p>The rest of them I hadn't heard about them, but the email, call and SMS links, the 'spellcheck' attribute, the HTML accordion, the 'download' attribute and the video thumbnail specially caught my attention</p>
+</body>
+</html>
